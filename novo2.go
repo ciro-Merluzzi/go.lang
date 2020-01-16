@@ -5,18 +5,18 @@ import (
 )
 
 func main() {
-//	fmt.Println("Olá mundo !")
+	fmt.Println("Olá mundo !")
 
 	f := true
-//	flag := &f
+	flag := &f
 
-//	if flag == nil && 2 == 3 {
+	if flag == nil && 2 == 3 {
 		fmt.Println("Value is nil")
-//	} else if *flag {
+	} else if *flag {
 		fmt.Println("True")
-//	} else {
+	} else {
 		fmt.Println("False")
-//	}
+	}
 
 	arr := []string{"cílios", "merlindo", "vicente"}
 	for i, Value := range arr {
